@@ -26,9 +26,9 @@ $ git clone https://github.com/froldev/symfony-myVideoPlayer.git
 
 ```bash
 $ composer install
-$ bin/console doctrine:database:create (create the DataBase)
-$ bin/console doctrine:migrations:migrate (execute migrations and create tables)
-$ bin/console doctrine:fixtures:load (execute fixtures to add an administrator account)
+$ bin/console doctrine:database:create
+$ bin/console doctrine:migrations:migrate
+$ bin/console doctrine:fixtures:load
 ```
 
 > Reminder: Don't use composer update to avoid problem
